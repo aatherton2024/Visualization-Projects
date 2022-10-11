@@ -1,6 +1,6 @@
 # Visualization-Projects
 
-This repository contains backtracking visualization to the algorithmic solutions to:
+This repository contains backtracking visualizations of the algorithmic solutions to:
 1. Solving a sudoku puzzle
 2. Solving the LeetCode NQueens question
 
