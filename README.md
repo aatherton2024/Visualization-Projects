@@ -1,14 +1,18 @@
 # Visualization-Projects
 
-This is a backtracking visualization project for the Leet Code questions N-Queens
+This repository contains backtracking visualization to the algorithmic solutions to:
+1. Solving a sudoku puzzle
+2. Solving the LeetCode NQueens question
 
-The program is written in java and utilizes the swing tool to create a graphical user interface
+All programs are written in java and utilize the swing tool to create a graphical user interface
 
-Running the program from the command line will result in a series of instructions being printed out
-regarding bounds for input board dimensions
+SolveSudoku.java:
+Running program from command line will open GUI and solve out. Additionally the puzzle before and after
+will be printed out to the terminal.
 
-To properly observe how the backtracking function operates, it is recommended to input an integer between 
-6 and 12
-
-If the user inputs a number below one or above 20, the program will run on as a regular size chess board with
-width and height 8
+NQueens.java:
+Running program from command line will print out a set of basic instructions and prompt the user to
+input an integer. This integer, n, will set the nxn dimensions of the "chess" board and will dictate
+the number of queens that must fit on the board. The program will then launch into a separate visual
+window similar to SolveSudoku and will print out final solution. The user should input a positive integer
+in range [4, 20] else program will override and run with n being 8.
